@@ -6,12 +6,13 @@ let mass = 72         // mass in Kilogram
 // More Examples
 const boilingPoint = 100 // temperature in oC, boiling point of water which is a constant
 const bodyTemp = 37      // oC average human body temperature, which is a constant
+const PI = Math.PI // 3.141592653589793
 
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp)
 
-const PI = Math.PI
 
-console.log(PI)                            // 3.141592653589793
+
+console.log(PI)                           
 
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
@@ -64,3 +65,11 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
+
+let randomNum = Math.random()         // generates 0 to 0.999
+let numBtnZeroAndTen = randomNum * 11
+
+console.log(numBtnZeroAndTen)         // this gives: min 0 and max 10.99
+
+let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+console.log(randomNumRoundToFloor)    // this gives between 0 and 10
