@@ -112,3 +112,17 @@ let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
 
 console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
+
+
+
+
+
+// Examples go to 20 but patching that
+
+let num = '10'
+let numInt = parseInt(num)
+console.log(numInt) // 10
+
+
+
+// This is me testing the git clone branch to see what happens
